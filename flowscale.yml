@@ -4,4 +4,8 @@ custom_nodes: custom_nodes.json
 user_models: user_models.json
 user_custom_nodes: user_custom_nodes.json
 workflows: []
-normal_workflows: []
+normal_workflows:
+  - id: f7x1mdua45
+    name: workflow-in-context-lora-cogvideox-interpolation.json
+    file: cog-video-x/workflow-in-context-lora-cogvideox-interpolation.json
+    version: 0
